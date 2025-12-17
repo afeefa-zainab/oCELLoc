@@ -1,5 +1,5 @@
 Package: oCELLoc
-Title: Predicts Suitable Cell Types in Spatial Transcriptomics Data
+Title: Predicts Suitable Cell Types in Spatial Transcriptomics and scRNA-seq Data
 Version: 1.0.0
 Authors@R: c(
   person(given = "Afeefa",
@@ -15,12 +15,12 @@ Authors@R: c(
                  email = "alexisvdb@infront.kyoto-u.ac.jp",
                  role = "aut",
                  comment = c(ORCID = "0000-0003-2180-5732")))
-Description: Picks the suitable cell types in spatial 
-    transcriptomics data using Lasso regression. The package includes curated reference 
-    gene expression profiles for human and mouse cell types, facilitating immediate application 
-    to common spatial transcriptomics datasets. Additionally, users can input custom reference 
-    data to support tissue- or experiment-specific analyses.
+Description: Picks the suitable cell types in spatial and scRNA-seq data using shrinkage methods.
+    The package includes curated reference gene expression profiles for human and mouse cell types, 
+    facilitating immediate application to common spatial transcriptomics or scRNA datasets. 
+    Additionally, users can input custom reference data to support tissue- or experiment-specific analyses.
 License: MIT + file LICENSE
+URL: https://doi.org/10.64898/2025.12.11.693812
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
